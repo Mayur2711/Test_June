@@ -14,7 +14,7 @@ describe('Dashboard Sanity Suite',function()
 
 {
     browser.ignoreSynchronization=true;
-/*
+
     it('login valid user',function()
     {
        
@@ -85,7 +85,7 @@ describe('Dashboard Sanity Suite',function()
     it('verify Email id in participants list', function(){
         sce.Learning_Activities_completion();
     })
-*/
+
     // from here writing code for wonderful company 
     it('verify successful login to wonderful company',function(){
         browser.get('https://wonderfulcompanydashboard.btsmomenta.com/');
