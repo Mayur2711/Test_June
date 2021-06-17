@@ -286,8 +286,8 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
@@ -295,136 +295,146 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images\\00df0047-00ac-0040-0024-00d0003b00f5.png",
-        "timestamp": 1623930641556,
-        "duration": 8580
+        "screenShotFile": "images\\00ac0084-00ac-00ad-003d-0005001c0070.png",
+        "timestamp": 1623930321032,
+        "duration": 11609
     },
     {
         "description": "verify power BI files visibility (WC)|Dashboard Sanity Suite",
-        "passed": true,
+        "passed": false,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
         },
-        "message": "Passed",
+        "message": [
+            "Failed: No element found using locator: By(xpath, //*[@style=\"width: 262.768px; height: 17.4539px;\"])"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(xpath, //*[@style=\"width: 262.768px; height: 17.4539px;\"])\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\built\\element.js:814:27\n    at ManagedPromise.invokeCallback_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.switchTo().frame([object Object])\n    at thenableWebDriverProxy.schedule (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at TargetLocator.frame (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1824:25)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Journey_PowerBi_Dashboard.js:97:45\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\built\\element.js:804:32\n    at ManagedPromise.invokeCallback_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: Run it(\"verify power BI files visibility (WC)\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Journey_PowerBi_Dashboard.js:93:5)\n    at addSpecsToSuite (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Journey_PowerBi_Dashboard.js:12:1)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)"
+        ],
         "browserLogs": [],
-        "screenShotFile": "images\\00960089-002d-00af-00e4-005900d80080.png",
-        "timestamp": 1623930650508,
-        "duration": 60644
+        "screenShotFile": "images\\00d10071-00e5-0090-0008-00bb00cb000b.png",
+        "timestamp": 1623930332983,
+        "duration": 66000
     },
     {
         "description": "Compare date (WC)|Dashboard Sanity Suite",
-        "passed": true,
+        "passed": false,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
         },
-        "message": "Passed",
+        "message": [
+            "Failed: No element found using locator: By(xpath, //*[@id=\"sandbox-host\"]//p//*[@title=\"Dashboard Last Updated on\"])"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(xpath, //*[@id=\"sandbox-host\"]//p//*[@title=\"Dashboard Last Updated on\"])\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\built\\element.js:814:27\n    at ManagedPromise.invokeCallback_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as getText] (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as getText] (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\built\\element.js:831:22)\n    at scenario.Compare_current_date (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Scenario_PowerBI_Dashboard.js:56:24)\n    at UserContext.<anonymous> (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Journey_PowerBi_Dashboard.js:101:13)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\nFrom: Task: Run it(\"Compare date (WC)\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Journey_PowerBi_Dashboard.js:100:5)\n    at addSpecsToSuite (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Journey_PowerBi_Dashboard.js:12:1)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)"
+        ],
         "browserLogs": [],
-        "screenShotFile": "images\\00ce005d-004c-004c-002b-00c200e200c2.png",
-        "timestamp": 1623930711564,
-        "duration": 105
+        "screenShotFile": "images\\00a4007b-0055-0071-0011-00b100470030.png",
+        "timestamp": 1623930399324,
+        "duration": 60044
     },
     {
         "description": "Verify active user should be less than register user(WC)|Dashboard Sanity Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "images\\00d60024-0099-00c4-00c9-00f9007600b8.png",
-        "timestamp": 1623930712031,
-        "duration": 124
+        "screenShotFile": "images\\00910050-0081-007d-0089-00a2000b0087.png",
+        "timestamp": 1623930459763,
+        "duration": 131
     },
     {
         "description": "registered users and active users are different(WC)|Dashboard Sanity Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "images\\00490008-00a8-0071-0094-00d200a1009b.png",
-        "timestamp": 1623930712531,
-        "duration": 91
+        "screenShotFile": "images\\001700f3-0029-00b9-0016-0017008b0000.png",
+        "timestamp": 1623930460258,
+        "duration": 95
     },
     {
         "description": "Verify user completion not blank(WC)|Dashboard Sanity Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "images\\004c0064-00af-0000-0052-004f008e0058.png",
-        "timestamp": 1623930712993,
-        "duration": 11503
+        "screenShotFile": "images\\005c00b0-00f5-0063-00e9-008a00cb004c.png",
+        "timestamp": 1623930460756,
+        "duration": 34084
     },
     {
         "description": "Verify blank in Main Dashboard(WC)|Dashboard Sanity Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "images\\005900a9-0047-0049-0009-000200280003.png",
-        "timestamp": 1623930724797,
-        "duration": 2323
+        "screenShotFile": "images\\0005006a-00aa-0004-0083-005800650093.png",
+        "timestamp": 1623930495186,
+        "duration": 3556
     },
     {
         "description": "Verify blank under tracking user progress tab(WC)|Dashboard Sanity Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "images\\003800c7-0022-0004-00bd-005000d7004a.png",
-        "timestamp": 1623930727501,
-        "duration": 10590
+        "screenShotFile": "images\\00810049-0045-00ba-00e9-004a00ec00d3.png",
+        "timestamp": 1623930499359,
+        "duration": 43389
     },
     {
         "description": "Verify blank under PODS tab on landing page(WC)|Dashboard Sanity Suite",
         "passed": false,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
@@ -438,26 +448,26 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
             "Error: Failed: Blank text is present in the landing page checkboxes\n    at stack (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2338:17)\n    at buildExpectationResult (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2308:14)\n    at Spec.expectationResultFactory (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:858:18)\n    at Spec.addExpectationResult (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:487:34)\n    at Env.fail (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1286:25)\n    at fail (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4558:23)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Scenario_PowerBI_WC.js:153:21\n    at ManagedPromise.invokeCallback_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)"
         ],
         "browserLogs": [],
-        "screenShotFile": "images\\002c0041-0067-0082-008b-000e001400f3.png",
-        "timestamp": 1623930738407,
-        "duration": 7086
+        "screenShotFile": "images\\00900058-0079-00d9-00fe-006900ef00d8.png",
+        "timestamp": 1623930543245,
+        "duration": 7801
     },
     {
         "description": "Verify Email id under participant list(WC)|Dashboard Sanity Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "02ec16e558cbfcfab3d07e463643d64f",
+        "instanceId": 25340,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "images\\00e800b3-00d8-0039-0041-0075007b0041.png",
-        "timestamp": 1623930745774,
-        "duration": 40661
+        "screenShotFile": "images\\00bd00c0-0021-00b7-00ef-000300b200db.png",
+        "timestamp": 1623930551374,
+        "duration": 39237
     }
 ];
 

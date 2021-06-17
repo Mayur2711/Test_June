@@ -14,7 +14,7 @@ describe('Dashboard Sanity Suite',function()
 
 {
     browser.ignoreSynchronization=true;
-
+/*
     it('login valid user',function()
     {
        
@@ -85,7 +85,7 @@ describe('Dashboard Sanity Suite',function()
     it('verify Email id in participants list', function(){
         sce.Learning_Activities_completion();
     })
-
+*/
     // from here writing code for wonderful company 
     it('verify successful login to wonderful company',function(){
         browser.get('https://wonderfulcompanydashboard.btsmomenta.com/');
@@ -97,8 +97,9 @@ describe('Dashboard Sanity Suite',function()
     it('verify power BI files visibility (WC)', function()
     {
         element(by.xpath('//*[contains(text(),"Dashboards & Reporting")]')).click().then(function() {
-            browser.sleep(5000) 
+            browser.sleep(5000); 
             browser.switchTo().frame(element(by.xpath('//*[@style="width: 100%; height: 100%;"]')).getWebElement());
+            browser.sleep(30000); 
             browser.switchTo().frame(element(by.xpath('//*[@style="width: 262.768px; height: 17.4539px;"]')).getWebElement());
         });
     })

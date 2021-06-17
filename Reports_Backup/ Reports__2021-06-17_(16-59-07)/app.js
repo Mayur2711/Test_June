@@ -282,12 +282,12 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
 
     var results = [
     {
-        "description": "verify successful login to wonderful company|Dashboard Sanity Suite",
+        "description": "login valid user|Dashboard Sanity Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
+        "sessionId": "691b6d2310275b6cba57accce44fae4c",
+        "instanceId": 24688,
         "browser": {
             "name": "chrome",
             "version": "91.0.4472.106"
@@ -295,169 +295,9 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "images\\00df0047-00ac-0040-0024-00d0003b00f5.png",
-        "timestamp": 1623930641556,
-        "duration": 8580
-    },
-    {
-        "description": "verify power BI files visibility (WC)|Dashboard Sanity Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
-        "browser": {
-            "name": "chrome",
-            "version": "91.0.4472.106"
-        },
-        "message": "Passed",
-        "browserLogs": [],
-        "screenShotFile": "images\\00960089-002d-00af-00e4-005900d80080.png",
-        "timestamp": 1623930650508,
-        "duration": 60644
-    },
-    {
-        "description": "Compare date (WC)|Dashboard Sanity Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
-        "browser": {
-            "name": "chrome",
-            "version": "91.0.4472.106"
-        },
-        "message": "Passed",
-        "browserLogs": [],
-        "screenShotFile": "images\\00ce005d-004c-004c-002b-00c200e200c2.png",
-        "timestamp": 1623930711564,
-        "duration": 105
-    },
-    {
-        "description": "Verify active user should be less than register user(WC)|Dashboard Sanity Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
-        "browser": {
-            "name": "chrome",
-            "version": "91.0.4472.106"
-        },
-        "message": "Passed",
-        "browserLogs": [],
-        "screenShotFile": "images\\00d60024-0099-00c4-00c9-00f9007600b8.png",
-        "timestamp": 1623930712031,
-        "duration": 124
-    },
-    {
-        "description": "registered users and active users are different(WC)|Dashboard Sanity Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
-        "browser": {
-            "name": "chrome",
-            "version": "91.0.4472.106"
-        },
-        "message": "Passed",
-        "browserLogs": [],
-        "screenShotFile": "images\\00490008-00a8-0071-0094-00d200a1009b.png",
-        "timestamp": 1623930712531,
-        "duration": 91
-    },
-    {
-        "description": "Verify user completion not blank(WC)|Dashboard Sanity Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
-        "browser": {
-            "name": "chrome",
-            "version": "91.0.4472.106"
-        },
-        "message": "Passed",
-        "browserLogs": [],
-        "screenShotFile": "images\\004c0064-00af-0000-0052-004f008e0058.png",
-        "timestamp": 1623930712993,
-        "duration": 11503
-    },
-    {
-        "description": "Verify blank in Main Dashboard(WC)|Dashboard Sanity Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
-        "browser": {
-            "name": "chrome",
-            "version": "91.0.4472.106"
-        },
-        "message": "Passed",
-        "browserLogs": [],
-        "screenShotFile": "images\\005900a9-0047-0049-0009-000200280003.png",
-        "timestamp": 1623930724797,
-        "duration": 2323
-    },
-    {
-        "description": "Verify blank under tracking user progress tab(WC)|Dashboard Sanity Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
-        "browser": {
-            "name": "chrome",
-            "version": "91.0.4472.106"
-        },
-        "message": "Passed",
-        "browserLogs": [],
-        "screenShotFile": "images\\003800c7-0022-0004-00bd-005000d7004a.png",
-        "timestamp": 1623930727501,
-        "duration": 10590
-    },
-    {
-        "description": "Verify blank under PODS tab on landing page(WC)|Dashboard Sanity Suite",
-        "passed": false,
-        "pending": false,
-        "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
-        "browser": {
-            "name": "chrome",
-            "version": "91.0.4472.106"
-        },
-        "message": [
-            "Failed: Blank text is present in landing page tabs",
-            "Failed: Blank text is present in the landing page checkboxes"
-        ],
-        "trace": [
-            "Error: Failed: Blank text is present in landing page tabs\n    at stack (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2338:17)\n    at buildExpectationResult (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2308:14)\n    at Spec.expectationResultFactory (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:858:18)\n    at Spec.addExpectationResult (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:487:34)\n    at Env.fail (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1286:25)\n    at fail (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4558:23)\n    at scenario_wc.Verify_blank (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Scenario_PowerBI_WC.js:96:13)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Scenario_PowerBI_WC.js:142:19\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\built\\element.js:804:32\n    at ManagedPromise.invokeCallback_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)",
-            "Error: Failed: Blank text is present in the landing page checkboxes\n    at stack (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2338:17)\n    at buildExpectationResult (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2308:14)\n    at Spec.expectationResultFactory (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:858:18)\n    at Spec.addExpectationResult (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:487:34)\n    at Env.fail (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1286:25)\n    at fail (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4558:23)\n    at C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\ConvertedJS\\Scenario_PowerBI_WC.js:153:21\n    at ManagedPromise.invokeCallback_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\JAINAM SHAH\\Documents\\GitHubb\\Momenta-Framework\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)"
-        ],
-        "browserLogs": [],
-        "screenShotFile": "images\\002c0041-0067-0082-008b-000e001400f3.png",
-        "timestamp": 1623930738407,
-        "duration": 7086
-    },
-    {
-        "description": "Verify Email id under participant list(WC)|Dashboard Sanity Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "sessionId": "3562c25bcba85fd91262329dda6c5d24",
-        "instanceId": 11300,
-        "browser": {
-            "name": "chrome",
-            "version": "91.0.4472.106"
-        },
-        "message": "Passed",
-        "browserLogs": [],
-        "screenShotFile": "images\\00e800b3-00d8-0039-0041-0075007b0041.png",
-        "timestamp": 1623930745774,
-        "duration": 40661
+        "screenShotFile": "images\\00e700cd-0078-0003-00b3-00f900f000bd.png",
+        "timestamp": 1623925151175,
+        "duration": 8839
     }
 ];
 
