@@ -15,7 +15,7 @@ describe('Dashboard Sanity Suite',function()
 {
     browser.ignoreSynchronization=true;
 
-    fit('login valid user',function()
+    it('login valid user',function()
     {
        
         browser.get('abbott.btsmomenta.com');
